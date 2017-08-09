@@ -138,6 +138,8 @@ Runnable、Callable优势是：
   * Android的四大组件都可以进行进程通信
   * 使用AIDL进行进程通信
   * 通过隐式Intent
+  * 文件共享，对同一个文件先后进行读写，但要注意同步
+  * 使用Socket，服务中定义 ServerSocket 来监听端口，客户端使用 Socket 来请求端口，连通后就可以进行通信
 
 ## 10. Service保活有什么方法
   * 提高服务的优先级
