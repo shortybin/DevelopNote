@@ -202,13 +202,3 @@ Runnable、Callable优势是：
   <http://blog.csdn.net/vstar283551454/article/details/8682655>
 
 ******
-
-为了不浪费大家的时间，我发布在这个网站上的所有文章会**保持原创，并尽量保证文章的质量**，对于一些比较细碎的知识点和问题会保存在我的 [GitHub](https://github.com/shrotybin) 上，分类放在Issues和不同的仓库文件夹中。
-
-### 联系我
-
-你可以通过以下几种方式联系到我。
-
-* [微博私信](http://weibo.com/shrotybin)
-* [提交Issues](https://github.com/shrotybin/AndroidNote/issues)
-* [发邮件](18334786948@163.com)
