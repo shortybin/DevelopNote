@@ -1,14 +1,4 @@
----
-layout: post
-category: interview
-title: 记一次面试总结（面试题目和答案）
-tags: shrotybin, interview
-date: 2017-08-09 00:00:00.000000000 +00:00
-keywords: shrotybin, shrotybin
-excerpt: 记一次面试总结（面试题目和答案）
-redirect_from:
-  - /2017/08/interview/
----
+# 记一次面试经历
 
 ## 1. 屏幕适配都是怎们去做的
  1. 尽量使用相对布局(RelativeLayout)，禁用绝对布局(AbsoluteLayout)。LinearLayout使用"wrap_content"和"match_parent"已经可以构建出不错的布局。但是LinearLayout无法准确地控制子视图之间的位置关系，只能简单的一个挨着一个地排列，所以对于适配屏幕应该根据情况适当选择。
