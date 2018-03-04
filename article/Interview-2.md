@@ -1,14 +1,14 @@
 # 最近面试中遇到的题目：
 ## 1. 屏幕旋转时 Activity 的生命周期变化(测试Android版本为7.1.1,版本号为25)
- * configChanges 是默认的情况下，由竖屏切换为横屏时生命周期时：
+   configChanges 是默认的情况下，由竖屏切换为横屏时生命周期时：
    onPause()——>onStop()——>onDestroy()——>onCreate()——>onStart()——>onResume()
    再有横屏切换为竖屏时，生命周期为：
    onPause()——>onStop()——>onDestroy()——>onCreate()——>onStart()——>onResume()
- * configChanges 设置为 "orientation|keyboardHidden" 时，由竖屏切换为横屏时生命周期为：
+   configChanges 设置为 "orientation|keyboardHidden" 时，由竖屏切换为横屏时生命周期为：
    onPause()——>onStop()——>onDestroy()——>onCreate()——>onStart()——>onResume()
    再由横屏切换为竖屏时，生命周期为：
    onPause()——>onStop()——>onDestroy()——>onCreate()——>onStart()——>onResume()
- * configChanges 设置为 "orientation|keyboardHidden|screenSize" 时，由竖屏切换为横屏时生命周期为：
+   configChanges 设置为 "orientation|keyboardHidden|screenSize" 时，由竖屏切换为横屏时生命周期为：
    onConfigurationChanged()
    再由横屏切换为竖屏时，生命周期为：
    onConfigurationChanged(）
@@ -23,8 +23,8 @@
  参考链接：<https://www.jianshu.com/p/1cd02fe1810f>
  
 ## 5. Android 中序列画的方式由哪些，有什么区别
- * 序列化为 Serializable 和 Parcelable
- * 区别是：
+   序列化为 Serializable 和 Parcelable
+   区别是：
     区别 | Serializable | Parcelable
     ---|---
     所属API | JAVA API |  Android SDK API
